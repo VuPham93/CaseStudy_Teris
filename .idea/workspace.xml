@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b92034f9-b06b-4158-b682-43b25ea11b9f" name="Default Changelist" comment="" />
+    <list default="true" id="b92034f9-b06b-4158-b682-43b25ea11b9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-ground.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/back-ground.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/brick.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +68,9 @@
       <workItem from="1587462957368" duration="390000" />
       <workItem from="1587463468518" duration="1398000" />
       <workItem from="1587464910873" duration="247000" />
+      <workItem from="1587474914812" duration="3000" />
+      <workItem from="1587475105908" duration="215000" />
+      <workItem from="1587475689359" duration="1989000" />
     </task>
     <servers />
   </component>

@@ -108,7 +108,6 @@ else {
     document.getElementById("highScore").innerHTML = localStorage.highScore;
 }
 
-
 function drop() {
     let now = Date.now();
     let time = now - dropStart;
@@ -120,7 +119,6 @@ function drop() {
         window.requestAnimationFrame(drop);
     }
 }
-
 
 window.requestAnimationFrame(drop);
 

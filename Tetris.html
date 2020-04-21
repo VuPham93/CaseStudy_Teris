@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris - CaseStudy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table>
+    <div>
+        <button class="newGame" id="newGame" onclick="newGame()">NEW GAME</button>
+    </div>
+    <tr>
+        <td width="300px">
+            <button id="playButton" onclick="playButtonClicked()">START</button>
+            <p></p>
+            <button id="easy" onclick="setDifficult(1)">EASY</button>
+            <button id="normal" onclick="setDifficult(2)">NORMAL</button>
+            <button id="hard" onclick="setDifficult(3)">HARD</button>
+        </td>
+        <td rowspan="4"><canvas class="canvas" id="tetris" width="400" height="800"></canvas></td>
+        <td width="300px">
+            <p>CONTROLS</p>
+            <p style="font-size: 20px">ENTER TO PAUSE</p>
+            <p style="font-size: 20px">SPACE TO DROP</p>
+            <p style="font-size: 20px">UP ARROW TO ROTATE</p>
+            <p style="font-size: 20px">LEFT/RIGHT/DOWN TO MOVE</p>
+
+        </td>
+    </tr>
+    <tr>
+        <td align="right" ><p>LINES</p><span id="lineCount">0</span></td>
+        <td><p>SCORE</p><span id="score">0</span></td>
+    </tr>
+    <tr>
+        <td align="right"><p>SPEED LV</p><span id="speedLV">0</span></td>
+        <td><p>HIGH SCORE</p><span id="highScore">0</span></td>
+    </tr>
+</table>
+<div class="text" id="finish"></div>
+<audio id="theme"><source src="sound/music.mp3"></audio>
+<audio id="fall"><source src="sound/fall.wav"></audio>
+<audio id="clear"><source src="sound/clear.mp3"></audio>
+<audio id="gameOver"><source src="sound/game-over.wav"></audio>
+<audio id="brickRotate"><source src="sound/block-rotate.mp3"></audio>
+<script src='js/board.js'></script>
+<script src='js/speed.js'></script>
+<script src='js/brickShape.js'></script>
+<script src='js/brick.js'></script>
+<script src='js/controller.js'></script>
+</body>
+</html>

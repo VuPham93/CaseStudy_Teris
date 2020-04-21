@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b92034f9-b06b-4158-b682-43b25ea11b9f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ah5bHUtXRP129Ckzz2HcU0SOzW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b92034f9-b06b-4158-b682-43b25ea11b9f" name="Default Changelist" comment="" />
+      <created>1587175054682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587175054682</updated>
+      <workItem from="1587175055807" duration="7233000" />
+      <workItem from="1587184539742" duration="660000" />
+      <workItem from="1587193849506" duration="12306000" />
+      <workItem from="1587221663909" duration="1238000" />
+      <workItem from="1587257274696" duration="13359000" />
+      <workItem from="1587270947619" duration="56000" />
+      <workItem from="1587279829371" duration="98000" />
+      <workItem from="1587280397886" duration="1310000" />
+      <workItem from="1587283129945" duration="1993000" />
+      <workItem from="1587344385372" duration="15162000" />
+      <workItem from="1587363363988" duration="5035000" />
+      <workItem from="1587368498169" duration="10496000" />
+      <workItem from="1587385159924" duration="2684000" />
+      <workItem from="1587387927826" duration="397000" />
+      <workItem from="1587430175976" duration="14640000" />
+      <workItem from="1587449519937" duration="11759000" />
+      <workItem from="1587462191302" duration="25000" />
+      <workItem from="1587462277864" duration="113000" />
+      <workItem from="1587462566516" duration="321000" />
+      <workItem from="1587462957368" duration="390000" />
+      <workItem from="1587463468518" duration="1398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1587368512055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1587368512055" />
+    <state x="0" y="0" width="954" height="1035" key="dock-window-2" timestamp="1587257287780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="954" height="1035" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1587257287780" />
+    <state x="0" y="0" width="952" height="1026" key="dock-window-3" timestamp="1587208373343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="952" height="1026" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1587208373343" />
+  </component>
+</project>

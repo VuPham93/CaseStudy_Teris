@@ -101,8 +101,13 @@ Brick.prototype.lock = function() {
         drawBoard();
     }
 };
+if (localStorage.highScore === undefined) {
+    document.getElementById("highScore").innerHTML = '0';
+}
+else {
+    document.getElementById("highScore").innerHTML = localStorage.highScore;
+}
 
-document.getElementById("highScore").innerHTML = localStorage.highScore;
 
 function drop() {
     let now = Date.now();

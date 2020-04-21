@@ -92,10 +92,8 @@ Brick.prototype.lock = function() {
             document.getElementById("lineCount").innerHTML = lineCount;
             document.getElementById("score").innerHTML = score;
             if (typeof (Storage) !== "undefined") {
-                localStorage.highScore = 0;
                 if (score > localStorage.highScore) {
                     localStorage.highScore = score;
-                    document.getElementById("highScore").innerHTML = score;
                 }
             }
         }

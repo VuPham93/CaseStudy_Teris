@@ -95,6 +95,7 @@ Brick.prototype.lock = function() {
                 localStorage.highScore = 0;
                 if (score > localStorage.highScore) {
                     localStorage.highScore = score;
+                    document.getElementById("highScore").innerHTML = score;
                 }
             }
         }

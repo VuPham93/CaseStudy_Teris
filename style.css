@@ -23,6 +23,19 @@ button:focus {
     border-radius: 35px;
     box-shadow: 0 0 0 5px rgba(255, 45, 149, 0.4);
 }
+.controlButton {
+    display: block;
+    margin-left: auto;
+    width: 120px;
+    height: 120px;
+    font-family: Arial, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    text-shadow: #FFF 1px 1px 3px, #FFF 1px 1px 10px, #FFF 1px 1px 15px, #FF2D95 1px 1px 20px, #FF2D95 1px 1px 30px, #FF2D95 1px 1px 40px, #FF2D95 1px 1px 50px, #FF2D95 1px 1px 75px;
+}
 table {
     margin: 0 auto;
     padding-top: 50px;

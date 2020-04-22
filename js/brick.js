@@ -65,7 +65,7 @@ Brick.prototype.lock = function() {
                 document.getElementById("theme").pause();
                 document.getElementById("gameOver").play();
                 document.getElementById("finish").innerHTML = "Game Over";
-                document.getElementById('newGame').style.display="block";
+                document.getElementById('newGame').style.display = "block";
 
                 break;
             }
@@ -126,6 +126,8 @@ window.requestAnimationFrame(drop);
 function playButtonClicked() {
     dropSpeed = 0;
     document.getElementById('playButton').blur();
+    document.getElementById('playButton').style.display = "none";
+    document.getElementById('pause').style.display = "block";
 
 }function newGame() {
     location.reload();

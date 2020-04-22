@@ -125,8 +125,11 @@ Brick.prototype.dropBrick = function () {
 };
 
 function pauseGame() {
-    if (dropSpeed === 0)
+    if (dropSpeed === 0) {
         dropSpeed = Infinity;
+        document.getElementById('pause').style.display = "none";
+        document.getElementById('playButton').style.display = "block";
+    }
     else dropSpeed = 0;
 }
 

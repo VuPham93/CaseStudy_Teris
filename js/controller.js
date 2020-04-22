@@ -23,6 +23,7 @@ document.body.onkeydown = function(e) {
     };
     if ( typeof keys[ e.keyCode ] != 'undefined' ) {
         keyPress( keys[ e.keyCode ] );
+        e.preventDefault();
         document.getElementById("theme").play();
     }
 };

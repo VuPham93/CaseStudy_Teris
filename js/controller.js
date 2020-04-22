@@ -61,6 +61,10 @@ function keyPress(key) {
     }
 }
 
+function mouseUp() {
+    dropSpeed = 0;
+}
+
 Brick.prototype.moveDown = function () {
     if (!this.collision(0, 1, this.activeBrick)) {
         this.delete();

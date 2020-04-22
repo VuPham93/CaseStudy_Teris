@@ -131,6 +131,10 @@ function pauseGame() {
         document.getElementById('pause').style.display = "none";
         document.getElementById('playButton').style.display = "block";
     }
-    else dropSpeed = 0;
+    else {
+        dropSpeed = 0;
+        document.getElementById('pause').style.display = "block";
+        document.getElementById('playButton').style.display = "none";
+    }
 }
 
